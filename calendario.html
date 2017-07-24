@@ -1,11 +1,10 @@
 <!--PAGINA FUE REALIZADA Y DISEÑADA POR PACHUCA ALVAREZ JOSE CARLOS ingenieropachuca@gmail.com-->
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
 <!--ARCHIVOS CSS PARA EL DISEÑO DE LA PAGINA-->
-<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/bootstrap.css"/>
 <link rel="stylesheet" href="css/estilos.css"/>
 <!--TITULO DE LA PAGINA-->
 <title>Ingenieria Civil</title>
@@ -31,120 +30,117 @@
 </div>
 </div>
 </header>
-<!--TERMINAN LOS LOGOS DE LA UNAM-->
+<!--TERMINA EL HEADER CON LOS LOGOS DE LA UNAM-->
 
-<!-- AQUI EMPIEZA LA BARRA DE NAVEGACION-->
-<div class="container">
-<header>
+
+<!--COMIENZA EL MENU DE NAVEGACIÓN-->
 <nav class="colordorado navbar navbar-default navbar-fixed-top">
 <div class="container">
-<!--MENU PARA MOVILES-->
 <div class="navbar-header">
+
+<!--BOTON DESPLEGABLE PARA MOVILES-->
 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
 </button>
+<!--TERMINA EL BOTON DESPLEGABLE PARA MOVILES-->
 
-<!--ICONO DE HOME EN LA BARRA DE NAVEGACION -->
-<a href="index.html" class="navbar-brand letra" style="color:#293e6b;"> <p class="glyphicon glyphicon-home"></p></a>
+<!--ICONO DE HOME-->
+<a href="index.html" class="navbar-brand"> 
+<span class="glyphicon glyphicon-home letraazul"></span></a>
 </div>
+<!--TERMINA ICONO DE HOME-->
+
+<!--CUANDO LA PAGINA SE HAGA PEQUEÑA TODO SE AGRUPA EN EL BOTON PARA MOVILES-->
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-<!--COLOCAR ELEMENTOS EN LA BARRA DE NAVERGACION-->
 
-<!--TITULO 1-->
-<ul class="nav navbar-nav navbar">
-<li><a href="nosotros.html"><strong style="color:#293e6b;">Nosotros</strong></a></li>
-</ul>
-
-<!--TITULO 2 DESPLEGABLE-->
-<ul class="nav navbar-nav navbar">
-<li class="dropdown letra">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong style="color:#293e6b;">Alumnos</strong><span class="caret"></span></a>
-<ul class="dropdown-menu">
-<li><a href="calendario.html">Calendario</a></li>
-<li><a href="horarios.html">Horarios Escolares</a></li>
-<li role="separator" class="divider"></li>
-<li><a href="https://www.dgae.unam.mx/normatividad/interpretacion.html" target="_blank">Normatividad</a></li>
-<li><a href="http://aragon.dgae.unam.mx/almn/index.php" target="_blank">Servicios Escolares</a></li>
-<li><a href="http://www.aragon.unam.mx/evaluacion1.1/Login.php" target="_blank">Evaluacion de profesores</a></li>
-<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd91YvurLC0N63f9fZhwpKxwlu78POTkQjRWCm07prCIDHA1Q/viewform" target="_blank">Cuestionario sobre servicios institucionales</a></li>
-
-</ul>
-</li>
+<!--PRIMER ENLACE DEL MENU "NOSOTROS"-->
+<ul class="nav navbar-nav">
+<li><a href="nosotros.html"> <span class="letraazul"> <strong>Nosotros</strong> </span></a></li>
 </ul>
 
-<!--TITULO 3 DESPLEGABLE-->
-<ul class="nav navbar-nav navbar ">
-<li class="dropdown letra">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong style="color:#293e6b;">Programa Educativo</strong><span class="caret"></span></a>
-<ul class="dropdown-menu">
-<li><a href="objetivos.html">Objetivos del Programa Educativo </a></li>
-<li><a href="perfiles.html">Perfiles</a></li>
-<li><a href="plan_estudios_actual.html">Plan de Estudios</a></li>
-<li role="separator" class="divider"></li>
-<li><a href="http://laboratorio-l-4.blogspot.mx/" target="_blank">Laboratorios</a></li>
-</ul>
-</li>
-</ul>
+<!--ENLACES DESPLEGABLES PRIMER ELEMENTO ALUMNOS-->
+<ul class="nav navbar-nav">
+<li class="dropdown">
+ <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="letraazul"> <strong>Alumnos</strong> </span><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="calendario.html">Calendario</a></li>
+            <li><a href="horarios.html">Horarios Escolares</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="https://www.dgae.unam.mx/normatividad/interpretacion.html" target="_blank">Normatividad</a></li>
+            <li><a href="http://aragon.dgae.unam.mx/almn/index.php" target="_blank">Servicios Escolares</a></li>
+            <li><a href="http://www.aragon.unam.mx/evaluacion1.1/Login.php" target="_blank">Evaluacion de profesores</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd91YvurLC0N63f9fZhwpKxwlu78POTkQjRWCm07prCIDHA1Q/viewform" target="_blank">Cuestionario sobre servicios institucionales</a></li>
+          </ul>
+        </li>
+        </ul>
 
-<!--TITULO 4 DESPLEGABLE-->
-<ul class="nav navbar-nav navbar ">
-<li class="dropdown letra">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong style="color:#293e6b;">Egresados</strong><span class="caret"></span></a>
-<ul class="dropdown-menu">
-<li> <a href="titulacion.html">Titulación </a> </li>
-<li role="separator" class="divider"></li>
-<li><a href="http://educacioncontinua.cuaed.unam.mx/oferta.php" target="_blank">Educacion continua</a></li>
-<li><a href="http://www.aragon.unam.mx/aragon/eventos/2017/pdmi_unam/" target="_blank">Oferta Educativa</a></li>
-<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf7xjTvk_9mWU5uo_cunAlbIIOtESCtnxjxqs3NGf97La9cCQ/viewform?fbzx=2033124194252804600" target="_blank">Cuestionario a Egresados</a></li>
+<!--ENLACES DESPLEGABLES SEGUNDO ELEMENTO PROGRAMA EDUCATIVO-->
+<ul class="nav navbar-nav">
+<li class="dropdown">
+ <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="letraazul"> <strong> Programa Educativo </strong> </span><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+			<li><a href="objetivos.html">Objetivos del Programa Educativo </a></li>
+			<li><a href="perfiles.html">Perfiles</a></li>
+			<li><a href="plan_estudios_actual.html">Plan de Estudios</a></li>
+			<li role="separator" class="divider"></li>
+			<li><a href="http://laboratorio-l-4.blogspot.mx/" target="_blank">Laboratorios</a></li>
+          </ul>
+        </li>
+        </ul>
 
-</ul>
-</li>
-</ul>
+<!--ENLACES DESPLEGABLES TERCER ELEMENTO EGRESADOS-->
+<ul class="nav navbar-nav">
+<li class="dropdown">
+ <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="letraazul"> <strong> Egresados </strong> </span><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+			<li> <a href="titulacion.html">Titulación </a> </li>
+			<li role="separator" class="divider"></li>
+			<li><a href="http://educacioncontinua.cuaed.unam.mx/oferta.php" target="_blank">Educacion continua</a></li>
+			<li><a href="http://www.aragon.unam.mx/aragon/eventos/2017/pdmi_unam/" target="_blank">Oferta Educativa</a></li>
+			<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf7xjTvk_9mWU5uo_cunAlbIIOtESCtnxjxqs3NGf97La9cCQ/viewform?fbzx=2033124194252804600" target="_blank">Cuestionario a Egresados</a></li>
+          </ul>
+        </li>
+        </ul>
 
-<!--TITULO 5 DESPLEGABLE -->
-<ul class="nav navbar-nav navbar ">
-<li class="dropdown letra">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong style="color:#293e6b;">Partes Interesadas</strong> <span class="caret"></span></a>
-<ul class="dropdown-menu">
-<li><a href="#">CACEI </a></li>
-<li><a href="#">CACEI </a></li>
-<li><a href="#">CACEI </a></li>
-</ul>
-</li>
-</ul>
-<!--COLOCAR MAS TITULOS AQUI-->
-</ul>
-</li>
-</ul>
-<!--ICONOS PARA REDES SOCIALES-->
+<!--ENLACES DESPLEGABLES CUARTO ELEMENTO PARTES INTERESADAS-->
+<ul class="nav navbar-nav">
+<li class="dropdown">
+ <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="letraazul"> <strong> Partes Interesadas </strong> </span><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+			<li><a href="#">CACEI </a></li>
+			<li><a href="#">CACEI </a></li>
+			<li><a href="#">CACEI </a></li>
+          </ul>
+        </li>
+        </ul>
+
+<!--ICONOS DE REDES SOCIALES ALINEADOS A LA DERECHA-->
 <ul class="nav navbar-nav navbar-right col-lg-3 col-md-3 hidden-sm col-xs-12 ">
 <!--ICONO DE FACEBOOK-->
 <div class="col-lg-3 col-md-3  col-xs-3 ">
-<a href="https://www.facebook.com/ici.fesaragon/" target="_blank"><img src="logos/face2.png" class="img-responsive"></a>
+<a href="https://www.facebook.com/" target="_blank"><img src="logos/face2.png" class="img-responsive"></a>
 </div>
 <!--ICONO DE GOOGLE-->
 <div class="col-lg-3 col-md-3  col-xs-3">
-<a href="https://plus.google.com/u/0/117581874530161550901" target="_blank"><img src="logos/goo2.png" class="img-responsive"></a>
+<a href="https://plus.google.com/" target="_blank"><img src="logos/goo2.png" class="img-responsive"></a>
 </div>
 <!--ICONO DE INSTAGRAM-->
 <div class="col-lg-3 col-md-3  col-xs-3">
-<a href="https://www.instagram.com/ici.fesaragon/?hl=es" target="_blank"><img src="logos/insta2.png" class="img-responsive"></a>
+<a href="https://www.instagram.com/" target="_blank"><img src="logos/insta2.png" class="img-responsive"></a>
 </div>
 <!--ICONO DE TWITTER-->
 <div class="col-lg-3 col-md-3 col-xs-3">
-<a href="https://twitter.com/ici_fesaragon?lang=es" target="_blank"><img src="logos/tui2.png" class="img-responsive"></a>
+<a href="https://twitter.com/" target="_blank"><img src="logos/tui2.png" class="img-responsive"></a>
 </div>
-<!--COLOCAR MAS ICONOS AQUI-->
+</ul>
+
+</div>
 </div>
 </nav>
-</ul>	
-</ul>
-</div>
-</header>  
-<!-- TERMINA LA BARRA DE NAVEGACION -->
+<!--TERMINA EL MENU DE NAVEGACIÓN-->
 
 
 <!-- AQUI COMIENZAN LOS CALENARIOS ESCOLARES-->

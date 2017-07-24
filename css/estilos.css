@@ -1,8 +1,7 @@
-@charset "utf-8";
-
-/* "header" SIRVE PARA DAR COLOR AZUL Y BLANCO A TODO LO QUE ESTE EN EL HEADER O PARTE SUPERIOR DE LA PAGINA  */
+/* "header" SIRVE PARA DAR COLOR AZUL Y BLANCO A TODO 
+LO QUE ESTE EN EL HEADER O PARTE SUPERIOR DE LA PAGINA  */
 header {
-	background:#293e6b;
+	background-color:#293e6b;
 	color:#f2f2f2;
 }
 
@@ -11,129 +10,85 @@ body {
 background-color: rgb(200,200,200);
 }
 
-/* "main" SIRVE PARA DAR COLOR BLANCO A "row" O LAS FILAS */
+/* "footer" USADO PARA COLOR BLANCO EN LAS LETRAS DEL DIRECTORIO  */
+footer{
+	color:#ffffff;
+}
+
+
+/* "main" DA COLOR GRIS CLARO A LOS CONTENEDORES DE LA PAGINA */
 .main {
 	background:#f2f2f2;
 }
 
-/* "colordorado" SIRVE PARA DAR EL COLOR DORADO DE LA UNAM AL CONTENEDOR QUE LO LLEME Y BLANCO A LAS LETRAS */
+/* "colordorado" SIRVE PARA DAR EL COLOR DORADO DE LA UNAM 
+A LA BARRA DE NAVEGACION (MENU) */
 .colordorado{
 	background:#b6985e;
 }
 
-/* "colordorado" SIRVE PARA DAR EL COLOR GRIS A LA BARRA LATERAL Y LETRA BLANCA */
-aside {
-	background:#606060;
-	color: #000;
+/* "letraazul" COLOR AZUL A LAS LETRAS DE LA BARRA DE NAVEGACION (MENU)*/
+.letraazul{
+	color: #293e6b;
 }
 
-/* "footer" SIRVE PARA DAR EL COLOR AZUL AL DIRECTORIO INFERIOR DE INGENIERIA CIVIL */
-footer{
-
-	color:#fff;
-
-}
-
+/* "colorazul" COLOR AZUL De FONDO USADO EN EL FOOTER*/
 .colorazul{
 	background:#293e6b;
 }
 
-.footer1{
-	background:#293e6b;
-	color:#fff;
-	position: absolute;
- 	bottom: 0;
-	width: 100%;
+/* "borde_derecha" BORDES A LOS ELEMENTOS EN LOS CONTENEDORES 7 pixeles*/
+.borde_derecha{
+border:7px solid;
+border-bottom:none;
+border-left-color:#c8c8c8;
+border-top-color:#c8c8c8;
+border-right-color:#c8c8c8;
 }
-	.borde_derecha{
-	border:7px solid;
-	border-bottom:none;
-	border-left-color:#c8c8c8;
-    border-top-color:#c8c8c8;
-	border-right-color:#c8c8c8;
-	}
-	.borde_nuevo{
-	border:3px solid;
-	border-bottom:none;
-	border-left-color:#c8c8c8;
-    border-top-color:#c8c8c8;
-	border-right-color:#c8c8c8;
-	}
 
+/* "borde_derecha" BORDES A LOS ELEMENTOS EN LOS CONTENEDORES 3 pixeles*/
+.borde_nuevo{
+border:3px solid;
+border-bottom:none;
+border-left-color:#c8c8c8;
+border-top-color:#c8c8c8;
+border-right-color:#c8c8c8;
+}
 
-	
-	.letra{
-		
-		color:#FFF;
-		font-family:Arial, Helvetica, sans-serif;
-		}
+/* "letra" USAR EN CASO DE QUERER UNA LETRA COLOR BLANCO TIPO ARIAL*/
+.letra{
+color:#ffffff;
+font-family:Arial, Helvetica, sans-serif;
+}
 
-
-
-		.reveal_foo{
-		
-		color:#FFF;
-		font-family:Arial, Helvetica, sans-serif;
-		background-color:#FFC;
-		}
-		
-		
-		
-		.reveal_bar{
-		
-		color:#FFF;
-		font-family:Arial, Helvetica, sans-serif;
-		background-color:#9F9;
-		}
-		
-		
-		
-		.reveal_lol{
-		
-		color:#FFF;
-		font-family:Arial, Helvetica, sans-serif;
-		background-color:#FF6;
-		}	
-
-		.reveal_box{
-		
-		color:#FFF;
-		font-family:Arial, Helvetica, sans-serif;
-		background-color:#FF6;
-		}	
-		
+/* "titulo" USADO PARA EL COLOR GRIS Y LETRA 
+BLANCA DE LOS TITULOS COMO "Capitulos Estudiantiles" "Sitios de Interes"*/
 .titulo{
 background-color: #464D51;
 color: #FFF;
 }
+
+/* "titulo1" USADO EXCLUSIVAMENTE EN EL TITULO "Logros de ingenieria civil" 
+PARA PONER COLOR A LOS BORDES DEL BOTON */
 .titulo1{
 background-color: #464D51;
-color: #FFF;
+color: #ffffff;
 	border:3px solid;
 	border-bottom-color:#464D51;
 	border-left-color:#464D51;
     border-top-color:#464D51;
 	border-right-color:#464D51;
 }
-.atencion
-{
-background-color:#FFFF66 ;
-}
-
+/* "tr1" USADO EN EL FOOTER PARA PONER EL 
+COLOR A LOS BORDES DE LA TABLA DEL FOOTER CON LA INFORMACION DE CONTACTO*/
 .tr1 {
   border: #293e6b 2px solid;
 }
+
+/* "metro" COLOR AZUL DE FONDO EN IMAGENES DE LOGROS DE INGENIERIA CIVIL */
 .metro {
 	background:#3B4F50;
 }
-.sitio {
-	background:#091F26;
-}
-
-
-
-
-
 
 /* DESCOMENTAR PARA QUE AL PASAR EL MOUSE SOBRE EL MENU DE NAVEGACION SE DESPLIEGUE SOLO OJO NO ESTA OPTIMIZADO */  
 /*ul.nav li.dropdown:hover ul.dropdown-menu {
