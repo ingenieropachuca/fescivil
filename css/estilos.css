@@ -46,15 +46,6 @@ border-top-color:#c8c8c8;
 border-right-color:#c8c8c8;
 }
 
-/* "borde_derecha" BORDES A LOS ELEMENTOS EN LOS CONTENEDORES 3 pixeles*/
-.borde_nuevo{
-border:3px solid;
-border-bottom:none;
-border-left-color:#c8c8c8;
-border-top-color:#c8c8c8;
-border-right-color:#c8c8c8;
-}
-
 /* "letra" USAR EN CASO DE QUERER UNA LETRA COLOR BLANCO TIPO ARIAL*/
 .letra{
 color:#ffffff;
@@ -88,6 +79,14 @@ COLOR A LOS BORDES DE LA TABLA DEL FOOTER CON LA INFORMACION DE CONTACTO*/
 /* "metro" COLOR AZUL DE FONDO EN IMAGENES DE LOGROS DE INGENIERIA CIVIL */
 .metro {
 	background:#3B4F50;
+}
+/* "creditos" Color al boton de creditos de la pagina en el footer */
+.creditos{
+	background-color: #006064 ;
+	border-color: #006064 ;
+	border-style: solid;
+	border-width: 1px;
+	color: #FFFFFF;
 }
 
 /* DESCOMENTAR PARA QUE AL PASAR EL MOUSE SOBRE EL MENU DE NAVEGACION SE DESPLIEGUE SOLO OJO NO ESTA OPTIMIZADO */  
